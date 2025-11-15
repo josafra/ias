@@ -1,0 +1,18 @@
+/* Mejoras para PWA */
+body.pwa-mode {
+  padding-top: env(safe-area-inset-top);
+}
+
+/* Botón de instalación (opcional) */
+#installButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
